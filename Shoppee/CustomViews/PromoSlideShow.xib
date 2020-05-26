@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PromoSlideShow"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="mUb-ak-LHe">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <viewLayoutGuide key="safeArea" id="jTk-KR-pgJ"/>
+            <point key="canvasLocation" x="42" y="54"/>
+        </view>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="y2H-f4-IKr">
+            <rect key="frame" x="0.0" y="0.0" width="486" height="237"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="m4R-w2-JHB">
+                <rect key="frame" x="0.0" y="0.0" width="486" height="237"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cdS-Lr-uEn" customClass="PromoSlideShow" customModule="Shoppee" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="486" height="237"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ImageSlideShow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rq-BC-3tA">
+                                <rect key="frame" x="145" y="92.5" width="196" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="BPy-9G-iDb"/>
+                                    <constraint firstAttribute="width" constant="196" id="cdP-hw-LY4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0rq-BC-3tA" firstAttribute="centerY" secondItem="cdS-Lr-uEn" secondAttribute="centerY" id="4io-5l-WDl"/>
+                            <constraint firstItem="0rq-BC-3tA" firstAttribute="centerX" secondItem="cdS-Lr-uEn" secondAttribute="centerX" id="DaC-CD-DKO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="cdS-Lr-uEn" secondAttribute="bottom" id="BgD-Ed-aKV"/>
+                    <constraint firstAttribute="trailing" secondItem="cdS-Lr-uEn" secondAttribute="trailing" id="FqA-Rf-8hl"/>
+                    <constraint firstItem="cdS-Lr-uEn" firstAttribute="top" secondItem="m4R-w2-JHB" secondAttribute="top" id="IBy-nS-9dv"/>
+                    <constraint firstItem="cdS-Lr-uEn" firstAttribute="leading" secondItem="m4R-w2-JHB" secondAttribute="leading" id="Yrh-OI-0zN"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="486" height="237"/>
+            <point key="canvasLocation" x="-104.34782608695653" y="5.0223214285714279"/>
+        </collectionViewCell>
+    </objects>
+</document>
