@@ -23,7 +23,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="LcF-F0-xjx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Me4-q1-Se5"/>
                             <constraint firstItem="LcF-F0-xjx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NOK-yX-sDD"/>

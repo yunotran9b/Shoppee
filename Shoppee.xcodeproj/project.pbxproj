@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		96C892A94AAC4AD6CE4B8CD8 /* Pods_Shoppee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236DD2CE8099A7D4404E8E10 /* Pods_Shoppee.framework */; };
+		DC4B0D89247E5D51004E45F9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4B0D87247E5D51004E45F9 /* Service.swift */; };
+		DC4B0D8A247E5D51004E45F9 /* Service.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4B0D88247E5D51004E45F9 /* Service.xib */; };
+		DC4B0D8D247E6D0E004E45F9 /* SlideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4B0D8C247E6D0E004E45F9 /* SlideCell.swift */; };
 		DC816A84247A0A710009DA43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC816A83247A0A710009DA43 /* AppDelegate.swift */; };
 		DC816A86247A0A710009DA43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC816A85247A0A710009DA43 /* SceneDelegate.swift */; };
 		DC816A88247A0A710009DA43 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC816A87247A0A710009DA43 /* HomeViewController.swift */; };
@@ -17,14 +20,17 @@
 		DC816AA1247A0B8D0009DA43 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC816AA0247A0B8D0009DA43 /* SearchBar.swift */; };
 		DC816AA6247A0F300009DA43 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC816AA5247A0F300009DA43 /* Constants.swift */; };
 		DC816AA8247A1C250009DA43 /* SearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC816AA7247A1C250009DA43 /* SearchBar.xib */; };
-		DC94085A247BD0B9000329EB /* PromoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC940859247BD0B9000329EB /* PromoCell.swift */; };
 		DCBB9EFC247A58A500B0489B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBB9EFB247A58A500B0489B /* Extensions.swift */; };
-		DCBB9F04247AB7F400B0489B /* PromoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCBB9F02247AB7F400B0489B /* PromoCell.xib */; };
+		DCCA0460247D0D5600DBA48A /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA045E247D0D5600DBA48A /* ServiceCell.swift */; };
+		DCCA0461247D0D5600DBA48A /* ServiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCCA045F247D0D5600DBA48A /* ServiceCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		236DD2CE8099A7D4404E8E10 /* Pods_Shoppee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shoppee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35C88F73F533F14ADCB246E /* Pods-Shoppee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoppee.release.xcconfig"; path = "Target Support Files/Pods-Shoppee/Pods-Shoppee.release.xcconfig"; sourceTree = "<group>"; };
+		DC4B0D87247E5D51004E45F9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DC4B0D88247E5D51004E45F9 /* Service.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Service.xib; sourceTree = "<group>"; };
+		DC4B0D8C247E6D0E004E45F9 /* SlideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideCell.swift; sourceTree = "<group>"; };
 		DC816A80247A0A710009DA43 /* Shoppee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoppee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC816A83247A0A710009DA43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC816A85247A0A710009DA43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,9 +42,9 @@
 		DC816AA0247A0B8D0009DA43 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		DC816AA5247A0F300009DA43 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DC816AA7247A1C250009DA43 /* SearchBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchBar.xib; sourceTree = "<group>"; };
-		DC940859247BD0B9000329EB /* PromoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCell.swift; sourceTree = "<group>"; };
 		DCBB9EFB247A58A500B0489B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		DCBB9F02247AB7F400B0489B /* PromoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PromoCell.xib; sourceTree = "<group>"; };
+		DCCA045E247D0D5600DBA48A /* ServiceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
+		DCCA045F247D0D5600DBA48A /* ServiceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceCell.xib; sourceTree = "<group>"; };
 		F0F2B15B9AB99801A4308F38 /* Pods-Shoppee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoppee.debug.xcconfig"; path = "Target Support Files/Pods-Shoppee/Pods-Shoppee.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +66,34 @@
 				236DD2CE8099A7D4404E8E10 /* Pods_Shoppee.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC4B0D85247E5D15004E45F9 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				DC816AA0247A0B8D0009DA43 /* SearchBar.swift */,
+				DC816AA7247A1C250009DA43 /* SearchBar.xib */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		DC4B0D86247E5D24004E45F9 /* ServiceCell */ = {
+			isa = PBXGroup;
+			children = (
+				DCCA045E247D0D5600DBA48A /* ServiceCell.swift */,
+				DCCA045F247D0D5600DBA48A /* ServiceCell.xib */,
+				DC4B0D87247E5D51004E45F9 /* Service.swift */,
+				DC4B0D88247E5D51004E45F9 /* Service.xib */,
+			);
+			path = ServiceCell;
+			sourceTree = "<group>";
+		};
+		DC4B0D8B247E6CA1004E45F9 /* ServiceSlide */ = {
+			isa = PBXGroup;
+			children = (
+				DC4B0D8C247E6D0E004E45F9 /* SlideCell.swift */,
+			);
+			path = ServiceSlide;
 			sourceTree = "<group>";
 		};
 		DC816A77247A0A710009DA43 = {
@@ -139,10 +173,9 @@
 		DC816A9D247A0B600009DA43 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				DC816AA0247A0B8D0009DA43 /* SearchBar.swift */,
-				DC816AA7247A1C250009DA43 /* SearchBar.xib */,
-				DC940859247BD0B9000329EB /* PromoCell.swift */,
-				DCBB9F02247AB7F400B0489B /* PromoCell.xib */,
+				DC4B0D8B247E6CA1004E45F9 /* ServiceSlide */,
+				DC4B0D85247E5D15004E45F9 /* SearchBar */,
+				DC4B0D86247E5D24004E45F9 /* ServiceCell */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -226,9 +259,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC816A90247A0A720009DA43 /* LaunchScreen.storyboard in Resources */,
+				DC4B0D8A247E5D51004E45F9 /* Service.xib in Resources */,
+				DCCA0461247D0D5600DBA48A /* ServiceCell.xib in Resources */,
 				DC816AA8247A1C250009DA43 /* SearchBar.xib in Resources */,
 				DC816A8D247A0A720009DA43 /* Assets.xcassets in Resources */,
-				DCBB9F04247AB7F400B0489B /* PromoCell.xib in Resources */,
 				DC816A8B247A0A710009DA43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,10 +316,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC94085A247BD0B9000329EB /* PromoCell.swift in Sources */,
 				DC816AA6247A0F300009DA43 /* Constants.swift in Sources */,
+				DC4B0D89247E5D51004E45F9 /* Service.swift in Sources */,
 				DCBB9EFC247A58A500B0489B /* Extensions.swift in Sources */,
 				DC816A88247A0A710009DA43 /* HomeViewController.swift in Sources */,
+				DC4B0D8D247E6D0E004E45F9 /* SlideCell.swift in Sources */,
+				DCCA0460247D0D5600DBA48A /* ServiceCell.swift in Sources */,
 				DC816AA1247A0B8D0009DA43 /* SearchBar.swift in Sources */,
 				DC816A84247A0A710009DA43 /* AppDelegate.swift in Sources */,
 				DC816A86247A0A710009DA43 /* SceneDelegate.swift in Sources */,
