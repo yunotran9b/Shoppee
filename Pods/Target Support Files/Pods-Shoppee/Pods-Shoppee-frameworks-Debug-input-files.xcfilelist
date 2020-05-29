@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Shoppee/Pods-Shoppee-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CountdownLabel/CountdownLabel.framework
 ${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework

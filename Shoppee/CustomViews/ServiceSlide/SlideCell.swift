@@ -31,8 +31,7 @@ class SlideCell: UICollectionViewCell {
       ImageSource(image: UIImage(named: "img1")!),
       ImageSource(image: UIImage(named: "img2")!),
       ImageSource(image: UIImage(named: "img3")!),
-      ImageSource(image: UIImage(named: "img4")!),
-      ImageSource(image: UIImage(named: "img5")!)
+      ImageSource(image: UIImage(named: "img4")!)
     ])
     
     slideshow.contentScaleMode = .scaleAspectFill

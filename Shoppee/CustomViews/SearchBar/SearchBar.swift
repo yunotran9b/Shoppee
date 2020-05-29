@@ -11,10 +11,12 @@ import UIKit
 class SearchBar: UIView {
     
     var contentView : UIView?
-    
+  
   @IBOutlet weak var SearchView: UIView!
   @IBOutlet weak var BigView: UIView!
   @IBOutlet weak var SearchTextField: UITextField!
+  @IBOutlet weak var Picked: UIButton!
+  @IBOutlet weak var Mess: UIButton!
   override func awakeFromNib() {
         super.awakeFromNib()
     setup()
@@ -33,7 +35,6 @@ class SearchBar: UIView {
             [.flexibleWidth, .flexibleHeight]
         addSubview(view)
         contentView = view
-      self.backgroundColor = UIColor(white: 1, alpha: 0)
       SearchView.layer.cornerRadius = 5
       
       SearchTextField.attributedPlaceholder = NSAttributedString(string: "iPhone, iPad", attributes: [NSAttributedString.Key.foregroundColor: UIColor(named: "MainTone")!])

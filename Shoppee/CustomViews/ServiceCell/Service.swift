@@ -10,7 +10,9 @@ import UIKit
 
 class Service: UICollectionViewCell {
 
-    override func awakeFromNib() {
+  @IBOutlet weak var ServiceImage: UIImageView!
+  @IBOutlet weak var Title: UILabel!
+  override func awakeFromNib() {
         super.awakeFromNib()
     }
 

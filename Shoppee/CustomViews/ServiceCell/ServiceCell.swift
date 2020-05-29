@@ -50,6 +50,8 @@ class ServiceCell: UICollectionViewCell, UICollectionViewDelegate, UICollectionV
     colView.rightAnchor.constraint(equalTo: CellView.rightAnchor).isActive = true
     colView.bottomAnchor.constraint(equalTo: CellView.bottomAnchor).isActive = true
     
+    colView.showsHorizontalScrollIndicator = false
+    
     InfoView.layer.shadowColor = UIColor.black.cgColor
     InfoView.layer.shadowOpacity = 0.5
     InfoView.layer.shadowOffset = .zero

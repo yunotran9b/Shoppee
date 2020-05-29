@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="Mall" customModule="Shoppee" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="116" height="138"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="116" height="138"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i4i-PB-Pkd">
+                        <rect key="frame" x="0.0" y="0.0" width="116" height="138"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xAX-6C-Krb">
+                                <rect key="frame" x="0.0" y="0.0" width="116" height="81"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKE-6R-gjc">
+                                <rect key="frame" x="0.0" y="87" width="116" height="29.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Freeship toàn quốc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBH-2Q-eSD">
+                                <rect key="frame" x="3" y="118.5" width="110" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" name="MainTone"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tb8-kG-etg">
+                                <rect key="frame" x="12.5" y="89.5" width="91" height="25"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="pBH-2Q-eSD" secondAttribute="bottom" id="GHk-EQ-JIO"/>
+                            <constraint firstItem="lKE-6R-gjc" firstAttribute="leading" secondItem="i4i-PB-Pkd" secondAttribute="leading" id="QiO-Nf-8EO"/>
+                            <constraint firstItem="Tb8-kG-etg" firstAttribute="centerY" secondItem="lKE-6R-gjc" secondAttribute="centerY" id="RiK-bl-na1"/>
+                            <constraint firstItem="Tb8-kG-etg" firstAttribute="height" secondItem="lKE-6R-gjc" secondAttribute="height" multiplier="0.847458" id="Tub-v8-kxX"/>
+                            <constraint firstItem="lKE-6R-gjc" firstAttribute="top" secondItem="xAX-6C-Krb" secondAttribute="bottom" constant="6" id="XIi-eE-A6M"/>
+                            <constraint firstAttribute="trailing" secondItem="xAX-6C-Krb" secondAttribute="trailing" id="cc0-41-26P"/>
+                            <constraint firstItem="xAX-6C-Krb" firstAttribute="leading" secondItem="i4i-PB-Pkd" secondAttribute="leading" id="epd-fT-Fru"/>
+                            <constraint firstItem="xAX-6C-Krb" firstAttribute="top" secondItem="i4i-PB-Pkd" secondAttribute="top" id="fFu-nC-gQX"/>
+                            <constraint firstItem="Tb8-kG-etg" firstAttribute="centerX" secondItem="lKE-6R-gjc" secondAttribute="centerX" id="jDW-Wi-1jy"/>
+                            <constraint firstItem="lKE-6R-gjc" firstAttribute="height" secondItem="i4i-PB-Pkd" secondAttribute="height" multiplier="0.215" id="knT-Sj-lgD"/>
+                            <constraint firstAttribute="trailing" secondItem="lKE-6R-gjc" secondAttribute="trailing" id="nZN-rV-piL"/>
+                            <constraint firstItem="pBH-2Q-eSD" firstAttribute="height" secondItem="i4i-PB-Pkd" secondAttribute="height" multiplier="0.14" id="nbQ-w5-gXE"/>
+                            <constraint firstItem="Tb8-kG-etg" firstAttribute="width" secondItem="lKE-6R-gjc" secondAttribute="width" multiplier="0.784483" id="oNH-a2-mX2"/>
+                            <constraint firstItem="pBH-2Q-eSD" firstAttribute="leading" secondItem="i4i-PB-Pkd" secondAttribute="leading" constant="3" id="r1p-vz-BjA"/>
+                            <constraint firstItem="xAX-6C-Krb" firstAttribute="height" secondItem="i4i-PB-Pkd" secondAttribute="height" multiplier="0.586957" id="vwz-fp-BmA"/>
+                            <constraint firstAttribute="trailing" secondItem="pBH-2Q-eSD" secondAttribute="trailing" constant="3" id="wz0-go-dqb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="i4i-PB-Pkd" secondAttribute="trailing" id="Isb-zF-60V"/>
+                <constraint firstItem="i4i-PB-Pkd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="uaN-ce-7BR"/>
+                <constraint firstItem="i4i-PB-Pkd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="w1h-UF-AZJ"/>
+                <constraint firstAttribute="bottom" secondItem="i4i-PB-Pkd" secondAttribute="bottom" id="xak-wN-kzu"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="116" height="138"/>
+            <connections>
+                <outlet property="Border" destination="lKE-6R-gjc" id="oFc-gk-EQC"/>
+                <outlet property="Brand" destination="Tb8-kG-etg" id="Lr3-f5-zXj"/>
+                <outlet property="ImageView" destination="xAX-6C-Krb" id="UZg-Vz-3dO"/>
+                <outlet property="Tittle" destination="pBH-2Q-eSD" id="J30-fd-oHR"/>
+            </connections>
+            <point key="canvasLocation" x="185.50724637681162" y="182.8125"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="MainTone">
+            <color red="1" green="0.27500000596046448" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

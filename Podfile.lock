@@ -1,18 +1,26 @@
 PODS:
+  - CountdownLabel (4.0.1)
+  - ESPullToRefresh (2.9.2)
   - ImageSlideshow (1.8.3):
     - ImageSlideshow/Core (= 1.8.3)
   - ImageSlideshow/Core (1.8.3)
 
 DEPENDENCIES:
+  - CountdownLabel
+  - ESPullToRefresh
   - ImageSlideshow (~> 1.8.3)
 
 SPEC REPOS:
   trunk:
+    - CountdownLabel
+    - ESPullToRefresh
     - ImageSlideshow
 
 SPEC CHECKSUMS:
+  CountdownLabel: c9975e3f329140b5e7d1f45cd63b1300badd1712
+  ESPullToRefresh: efed00d52597065e9a84e1e52fa444fdb1a1dee0
   ImageSlideshow: 4694d7d699a1549582e7cc631fb392d8f91630f3
 
-PODFILE CHECKSUM: 1f3a7c2af6323721b5f1e95f1f6fb5bf58cc1e2e
+PODFILE CHECKSUM: 2fa229e50c397290be8f696f9bff1626750e4246
 
 COCOAPODS: 1.9.2

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SearchMost" customModule="Shoppee" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="98" height="137"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="98" height="137"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PSp-42-qMz">
+                        <rect key="frame" x="0.0" y="0.0" width="98" height="137"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LTJ-p6-SLo">
+                                <rect key="frame" x="0.0" y="0.0" width="98" height="93"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ưefwef ưeqweq" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Vn-8K-0ME">
+                                <rect key="frame" x="8" y="95" width="82" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Đã bán 508" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGZ-zh-bea">
+                                <rect key="frame" x="8" y="123" width="61" height="10"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0C2-kf-vJe">
+                                <rect key="frame" x="0.0" y="0.0" width="98" height="137"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="FuckinLightGray"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RGZ-zh-bea" secondAttribute="trailing" constant="29" id="0XZ-PJ-hwt"/>
+                            <constraint firstItem="LTJ-p6-SLo" firstAttribute="top" secondItem="PSp-42-qMz" secondAttribute="top" id="0gu-sc-Ttb"/>
+                            <constraint firstItem="1Vn-8K-0ME" firstAttribute="top" secondItem="LTJ-p6-SLo" secondAttribute="bottom" constant="2" id="6Q4-jw-Aek"/>
+                            <constraint firstItem="0C2-kf-vJe" firstAttribute="leading" secondItem="PSp-42-qMz" secondAttribute="leading" id="MwB-g8-DTh"/>
+                            <constraint firstItem="LTJ-p6-SLo" firstAttribute="leading" secondItem="PSp-42-qMz" secondAttribute="leading" constant="0.10000000000000001" id="PdW-d5-oTN"/>
+                            <constraint firstAttribute="trailing" secondItem="LTJ-p6-SLo" secondAttribute="trailing" constant="0.10000000000000001" id="Pi7-VG-0Hx"/>
+                            <constraint firstItem="RGZ-zh-bea" firstAttribute="leading" secondItem="PSp-42-qMz" secondAttribute="leading" constant="8" id="WV4-Ch-L5h"/>
+                            <constraint firstItem="0C2-kf-vJe" firstAttribute="top" secondItem="PSp-42-qMz" secondAttribute="top" id="ZsF-T5-9Qn"/>
+                            <constraint firstItem="LTJ-p6-SLo" firstAttribute="height" secondItem="PSp-42-qMz" secondAttribute="height" multiplier="0.678832" id="fuZ-9a-Zho"/>
+                            <constraint firstItem="1Vn-8K-0ME" firstAttribute="leading" secondItem="PSp-42-qMz" secondAttribute="leading" constant="8" id="gjo-IY-K6W"/>
+                            <constraint firstItem="RGZ-zh-bea" firstAttribute="height" secondItem="PSp-42-qMz" secondAttribute="height" multiplier="0.0729927" id="iZ9-FT-Ig3"/>
+                            <constraint firstItem="RGZ-zh-bea" firstAttribute="top" secondItem="1Vn-8K-0ME" secondAttribute="bottom" constant="1.5" id="oIV-7b-1Ce"/>
+                            <constraint firstAttribute="trailing" secondItem="1Vn-8K-0ME" secondAttribute="trailing" constant="8" id="tXc-Zr-7u5"/>
+                            <constraint firstAttribute="bottom" secondItem="0C2-kf-vJe" secondAttribute="bottom" id="tv2-V7-4dL"/>
+                            <constraint firstAttribute="trailing" secondItem="0C2-kf-vJe" secondAttribute="trailing" id="wID-CC-ha3"/>
+                            <constraint firstItem="1Vn-8K-0ME" firstAttribute="height" secondItem="PSp-42-qMz" secondAttribute="height" multiplier="0.193431" id="z7n-42-KvJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="PSp-42-qMz" secondAttribute="trailing" id="Omr-3Q-lne"/>
+                <constraint firstAttribute="bottom" secondItem="PSp-42-qMz" secondAttribute="bottom" id="kko-cr-FeG"/>
+                <constraint firstItem="PSp-42-qMz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pfA-un-eJy"/>
+                <constraint firstItem="PSp-42-qMz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zG6-Ax-KcP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="ImageView" destination="LTJ-p6-SLo" id="Dix-PT-0MT"/>
+                <outlet property="Sold" destination="RGZ-zh-bea" id="ql9-cD-BRf"/>
+                <outlet property="Tittle" destination="1Vn-8K-0ME" id="Wj2-T8-HqZ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="90.736607142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="FuckinLightGray">
+            <color red="0.95499998331069946" green="0.95499998331069946" blue="0.95499998331069946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -51,6 +51,10 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="65" height="65"/>
+            <connections>
+                <outlet property="ServiceImage" destination="dBc-hz-rd1" id="nAI-UC-Xzf"/>
+                <outlet property="Title" destination="Tvw-Qq-CE7" id="1IT-ee-M01"/>
+            </connections>
             <point key="canvasLocation" x="148.55072463768118" y="131.58482142857142"/>
         </collectionViewCell>
     </objects>

@@ -11,6 +11,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchBar" customModule="Shoppee" customModuleProvider="target">
             <connections>
                 <outlet property="BigView" destination="Jbx-Ta-qgT" id="Wot-oE-vw5"/>
+                <outlet property="Mess" destination="WbT-vM-x46" id="s57-yW-USq"/>
+                <outlet property="Picked" destination="Eet-TL-P0K" id="Btp-mG-yum"/>
                 <outlet property="SearchTextField" destination="1D2-yh-ot0" id="kS6-wP-tbZ"/>
                 <outlet property="SearchView" destination="nrt-z4-kIL" id="bB4-nV-HYs"/>
             </connections>
@@ -113,7 +115,7 @@
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="message" catalog="system" width="128" height="113"/>
         <namedColor name="MainTone">
-            <color red="1" green="0.27474088649226114" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.27500000596046448" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="SearchViewColor">
             <color red="0.91810514509375329" green="0.91810514509375329" blue="0.91810514509375329" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
