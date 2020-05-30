@@ -20,8 +20,8 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JKi-lT-31w">
                         <rect key="frame" x="0.0" y="0.0" width="287" height="312"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4lK-Aw-Wf2">
-                                <rect key="frame" x="199" y="0.0" width="84" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4lK-Aw-Wf2">
+                                <rect key="frame" x="195" y="2" width="84" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="RWP-Aj-RGR"/>
                                 </constraints>
@@ -36,14 +36,14 @@
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ufh-1Q-rB6">
-                                <rect key="frame" x="23" y="32" width="240" height="1"/>
-                                <color key="backgroundColor" name="FuckinLightGray"/>
+                                <rect key="frame" x="23" y="34" width="240" height="1.5"/>
+                                <color key="backgroundColor" name="VeryLightGray"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="1" id="50Z-pW-9Pj"/>
+                                    <constraint firstAttribute="height" constant="1.5" id="50Z-pW-9Pj"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img1" translatesAutoresizingMaskIntoConstraints="NO" id="OH8-j6-J0C">
-                                <rect key="frame" x="8" y="68" width="271" height="74"/>
+                                <rect key="frame" x="8" y="70.5" width="271" height="74"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -53,13 +53,13 @@
                             <constraint firstAttribute="trailing" secondItem="OH8-j6-J0C" secondAttribute="trailing" constant="8" id="4pb-PU-b6A"/>
                             <constraint firstItem="nUU-pW-el2" firstAttribute="leading" secondItem="JKi-lT-31w" secondAttribute="leading" constant="8" id="G5r-fr-JIl"/>
                             <constraint firstItem="nUU-pW-el2" firstAttribute="width" secondItem="JKi-lT-31w" secondAttribute="width" multiplier="0.4" id="Kst-3r-fh8"/>
-                            <constraint firstAttribute="trailing" secondItem="4lK-Aw-Wf2" secondAttribute="trailing" constant="4" id="R0J-c7-eeU"/>
+                            <constraint firstAttribute="trailing" secondItem="4lK-Aw-Wf2" secondAttribute="trailing" constant="8" id="R0J-c7-eeU"/>
                             <constraint firstItem="nUU-pW-el2" firstAttribute="top" secondItem="JKi-lT-31w" secondAttribute="top" id="XPY-2x-pDx"/>
                             <constraint firstItem="OH8-j6-J0C" firstAttribute="height" secondItem="JKi-lT-31w" secondAttribute="height" multiplier="0.237179" id="Yrz-MY-zwW"/>
                             <constraint firstAttribute="trailing" secondItem="ufh-1Q-rB6" secondAttribute="trailing" constant="24" id="qop-6k-yBt"/>
                             <constraint firstItem="ufh-1Q-rB6" firstAttribute="leading" secondItem="JKi-lT-31w" secondAttribute="leading" constant="23" id="sec-ol-OKL"/>
                             <constraint firstItem="ufh-1Q-rB6" firstAttribute="top" secondItem="4lK-Aw-Wf2" secondAttribute="bottom" constant="2" id="xy8-T4-RDa"/>
-                            <constraint firstItem="4lK-Aw-Wf2" firstAttribute="top" secondItem="JKi-lT-31w" secondAttribute="top" id="ytf-JW-TfI"/>
+                            <constraint firstItem="4lK-Aw-Wf2" firstAttribute="top" secondItem="JKi-lT-31w" secondAttribute="top" constant="2" id="ytf-JW-TfI"/>
                             <constraint firstItem="OH8-j6-J0C" firstAttribute="leading" secondItem="JKi-lT-31w" secondAttribute="leading" constant="8" id="zxR-PN-hsB"/>
                         </constraints>
                     </view>
@@ -84,8 +84,8 @@
     <resources>
         <image name="Mall" width="156" height="29"/>
         <image name="img1" width="1200" height="700"/>
-        <namedColor name="FuckinLightGray">
-            <color red="0.95499998331069946" green="0.95499998331069946" blue="0.95499998331069946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="VeryLightGray">
+            <color red="0.9179999828338623" green="0.9179999828338623" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

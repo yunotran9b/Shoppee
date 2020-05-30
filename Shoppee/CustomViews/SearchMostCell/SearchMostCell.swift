@@ -15,7 +15,7 @@ class SearchMostCell: UICollectionViewCell, UICollectionViewDelegate, UICollecti
   }
   
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-    return CGSize(width: collectionView.frame.height/1.5, height: collectionView.frame.height * 0.9)
+    return CGSize(width: collectionView.frame.height/1.575, height: collectionView.frame.height * 0.925)
 
   }
   

@@ -35,7 +35,7 @@ class SuggestCell: UICollectionViewCell, UICollectionViewDelegate, UICollectionV
     if collectionView == colView1 {
     return CGSize(width: collectionView.frame.height / 1.5, height: collectionView.frame.height / 1.1)
     } else {
-      return CGSize(width: collectionView.frame.width / 2.15, height: collectionView.frame.width / 1.75)
+      return CGSize(width: collectionView.frame.width / 2.085, height: collectionView.frame.width / 1.75)
     }
   }
   
@@ -101,7 +101,7 @@ class SuggestCell: UICollectionViewCell, UICollectionViewDelegate, UICollectionV
       cellsPerRow: 2,
       minimumInteritemSpacing: 5,
         minimumLineSpacing: 5,
-        sectionInset: UIEdgeInsets(top: 10, left: 10, bottom: 0, right: 10)
+        sectionInset: UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5)
     )
     columnLayout.scrollDirection = .vertical
     let cv = DynamicHeightCollectionView(frame: .zero, collectionViewLayout: columnLayout)

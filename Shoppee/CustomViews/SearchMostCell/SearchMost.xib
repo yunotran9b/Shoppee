@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -45,8 +45,8 @@
                             <constraint firstItem="LTJ-p6-SLo" firstAttribute="top" secondItem="PSp-42-qMz" secondAttribute="top" id="0gu-sc-Ttb"/>
                             <constraint firstItem="1Vn-8K-0ME" firstAttribute="top" secondItem="LTJ-p6-SLo" secondAttribute="bottom" constant="2" id="6Q4-jw-Aek"/>
                             <constraint firstItem="0C2-kf-vJe" firstAttribute="leading" secondItem="PSp-42-qMz" secondAttribute="leading" id="MwB-g8-DTh"/>
-                            <constraint firstItem="LTJ-p6-SLo" firstAttribute="leading" secondItem="PSp-42-qMz" secondAttribute="leading" constant="0.10000000000000001" id="PdW-d5-oTN"/>
-                            <constraint firstAttribute="trailing" secondItem="LTJ-p6-SLo" secondAttribute="trailing" constant="0.10000000000000001" id="Pi7-VG-0Hx"/>
+                            <constraint firstItem="LTJ-p6-SLo" firstAttribute="leading" secondItem="PSp-42-qMz" secondAttribute="leading" id="PdW-d5-oTN"/>
+                            <constraint firstAttribute="trailing" secondItem="LTJ-p6-SLo" secondAttribute="trailing" id="Pi7-VG-0Hx"/>
                             <constraint firstItem="RGZ-zh-bea" firstAttribute="leading" secondItem="PSp-42-qMz" secondAttribute="leading" constant="8" id="WV4-Ch-L5h"/>
                             <constraint firstItem="0C2-kf-vJe" firstAttribute="top" secondItem="PSp-42-qMz" secondAttribute="top" id="ZsF-T5-9Qn"/>
                             <constraint firstItem="LTJ-p6-SLo" firstAttribute="height" secondItem="PSp-42-qMz" secondAttribute="height" multiplier="0.678832" id="fuZ-9a-Zho"/>
